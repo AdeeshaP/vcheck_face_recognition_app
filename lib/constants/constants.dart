@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+final cameraCaptureBtnColor = Colors.red[700];
+final appbarBgColor =  Color.fromARGB(255, 247, 115, 8).withOpacity(0.2);
+// final screenHeadingColor = Colors.deepOrange.shade800;
+final screenHeadingColor = Colors.orange.shade900;
+final iconColors = Colors.orange.shade900;
+final numberColors = Colors.deepOrange.shade800;
+final sliderButtonBgColor = Colors.deepOrange.shade700.withOpacity(0.9);
+final boxBgColor = Colors.orange[50];
+final cardColros = Colors.grey.shade50;
+final appBgColor = Colors.grey[50];
+final normalTextColor = Colors.black;
+final actionBtnTextColor = Colors.white;
+final actionBtnColor = Color(0xFFFF9800);
+final aspectRatio = 3.0 / 4.0;
+final scale = 1.0;
+final leaveBoxBGColor = Colors.white;
+final faceIconColor = Color(0xFFFF9800); 
+final shadeBoxBgColor = Colors.orange[50];
+final slidingBarIconColor = Colors.orange;
