@@ -99,21 +99,7 @@ class _OTPInputSreenState extends State<OTPInputSreen> {
       _storage.setString('user_data', response.body);
       _storage.setString('employee_code', empCode);
 
-      // Map<String, dynamic> userObj = jsonDecode(response.body);
-      // if (userObj["enrolled"] == 'done') {
-      //   Navigator.of(context).pushAndRemoveUntil(
-      //     MaterialPageRoute(
-      //       builder: (context) => Home(),
-      //     ),
-      //     (Route<dynamic> route) => false,
-      //   );
-      // } else {
-      //   Navigator.of(context, rootNavigator: true).push(
-      //     MaterialPageRoute(
-      //       builder: (context) => EnrollUser(userObj: userObj),
-      //     ),
-      //   );
-      // }
+   
       Map<String, dynamic> userObj = jsonDecode(response.body);
       if (userObj["enrolled"] == 'done' && _autoCaptureFace == true) {
       } else if (userObj["enrolled"] == 'done') {

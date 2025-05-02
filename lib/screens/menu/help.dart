@@ -9,14 +9,14 @@ import 'package:vcheck_face_recognition_app/screens/menu/contact_us.dart';
 import 'package:vcheck_face_recognition_app/screens/menu/settings.dart';
 import 'package:vcheck_face_recognition_app/screens/menu/terms_condition.dart';
 
-class HelpTwo extends StatefulWidget {
-  const HelpTwo({super.key});
+class Help extends StatefulWidget {
+  const Help({super.key});
 
   @override
-  _HelpTwoState createState() => _HelpTwoState();
+  _HelpState createState() => _HelpState();
 }
 
-class _HelpTwoState extends State<HelpTwo> {
+class _HelpState extends State<Help> {
   bool _isLoading = true;
   PDFDocument? document;
   late SharedPreferences _storage;
