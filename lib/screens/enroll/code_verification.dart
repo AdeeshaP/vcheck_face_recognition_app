@@ -4,7 +4,7 @@ import 'package:vcheck_face_recognition_app/api-access/api_service.dart';
 import 'package:vcheck_face_recognition_app/constants/constants.dart';
 import 'package:vcheck_face_recognition_app/constants/dimensions.dart';
 import 'package:vcheck_face_recognition_app/dialogs/custom_error_dialog.dart';
-import 'package:vcheck_face_recognition_app/dialogs/utils.dart';
+import 'package:vcheck_face_recognition_app/dialogs/other_dialogs.dart';
 import 'package:vcheck_face_recognition_app/screens/enroll/otp_input_screen.dart';
 
 // ignore: must_be_immutable

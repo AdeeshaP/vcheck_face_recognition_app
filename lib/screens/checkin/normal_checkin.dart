@@ -20,7 +20,7 @@ import 'package:vcheck_face_recognition_app/constants/dimensions.dart';
 import 'package:vcheck_face_recognition_app/dialogs/custom_error_dialog.dart';
 import 'package:vcheck_face_recognition_app/dialogs/custom_error_dialog_two.dart';
 import 'package:vcheck_face_recognition_app/dialogs/status_overlay_dialog.dart';
-import 'package:vcheck_face_recognition_app/dialogs/utils.dart';
+import 'package:vcheck_face_recognition_app/dialogs/other_dialogs.dart';
 import 'package:vcheck_face_recognition_app/main.dart';
 import 'package:vcheck_face_recognition_app/screens/auto-capture/auto_capture_cameraview.dart';
 import 'package:vcheck_face_recognition_app/screens/auto-capture/get_processing_status_view.dart';

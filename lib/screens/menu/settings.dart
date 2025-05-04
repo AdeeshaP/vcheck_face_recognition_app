@@ -4,7 +4,7 @@ import 'package:vcheck_face_recognition_app/constants/constants.dart';
 import 'package:vcheck_face_recognition_app/constants/dimensions.dart';
 import 'package:vcheck_face_recognition_app/dialogs/custom_error_dialog.dart';
 import 'package:vcheck_face_recognition_app/dialogs/custom_success_dialog.dart';
-import 'package:vcheck_face_recognition_app/dialogs/utils.dart';
+import 'package:vcheck_face_recognition_app/dialogs/other_dialogs.dart';
 import 'package:vcheck_face_recognition_app/screens/checkin/normal_checkin.dart';
 import 'package:vcheck_face_recognition_app/screens/enroll/code_verification.dart';
 import 'package:vcheck_face_recognition_app/screens/home/home_page.dart';
