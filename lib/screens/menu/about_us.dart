@@ -17,7 +17,7 @@ class AboutUs extends StatefulWidget {
 }
 
 class _AboutUsState extends State<AboutUs> {
-   late SharedPreferences _storage;
+  late SharedPreferences _storage;
 
   @override
   void initState() {
@@ -110,10 +110,9 @@ class _AboutUsState extends State<AboutUs> {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
-     Size size = MediaQuery.of(context).size;
+    Size size = MediaQuery.of(context).size;
 
     return OrientationBuilder(
         builder: (BuildContext context, Orientation orientation) {
@@ -392,6 +391,5 @@ class _AboutUsState extends State<AboutUs> {
         );
       }
     });
-  
   }
 }

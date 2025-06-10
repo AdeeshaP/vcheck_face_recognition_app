@@ -17,7 +17,7 @@ class TermsAndConditions extends StatefulWidget {
 }
 
 class _TermsAndConditionsState extends State<TermsAndConditions> {
-   bool _isLoading = true;
+  bool _isLoading = true;
   late PDFDocument? document;
   late SharedPreferences _storage;
 
@@ -96,10 +96,9 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
     setState(() => _isLoading = false);
   }
 
-
   @override
   Widget build(BuildContext context) {
-     Size size = MediaQuery.of(context).size;
+    Size size = MediaQuery.of(context).size;
 
     return PopScope(
       canPop: false,
@@ -260,12 +259,9 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
                       ),
               ),
             )
-
-          
           ],
         ),
       ),
     );
-  
   }
 }
